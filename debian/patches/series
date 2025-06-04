@@ -5,3 +5,4 @@ fix-autoconf-2.70.patch
 autoreconf-libtool.patch
 autoreconf-gettext.patch
 fix-test1-lt.patch
+0001-deepin-sw_64-support.diff
