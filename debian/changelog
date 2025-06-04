@@ -1,3 +1,9 @@
+popt (1.18-3deepin1) unstable; urgency=medium
+
+  * feat: add sw64 support.
+
+ -- hudeng <hudeng@deepin.org>  Wed, 04 Jun 2025 10:44:05 +0800
+
 popt (1.18-3) unstable; urgency=medium
 
   * [79431a2] fix autoconf 2.70 obsolete macros (Closes: #978885)
