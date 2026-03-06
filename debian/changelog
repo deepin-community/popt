@@ -1,8 +1,38 @@
-popt (1.18-3deepin1) unstable; urgency=medium
+popt (1.19+dfsg-2) unstable; urgency=medium
 
-  * feat: add sw64 support.
+  * Support the noudeb build profile.
+    Thanks to Helmut Grohne for the patch. Closes: #1024950
+  * Document that reporting of test failures patch has been applied upstream.
+  * Add patch for documenting poptgetContext() flags. Closes: #666431
+  * Update Standards-Version to 4.7.0, no changes needed.
+  * Update copyright year for self.
+  * Create patch to fix man-page with 'tbl' preprocessor.
+  * Add license paragraph for a translated file.
 
- -- hudeng <hudeng@deepin.org>  Wed, 04 Jun 2025 10:44:05 +0800
+ -- Håvard F. Aasen <havard.f.aasen@pfft.no>  Sun, 18 Aug 2024 22:32:34 +0200
+
+popt (1.19+dfsg-1) unstable; urgency=medium
+
+  * Move from experimental to unstable.
+  * Add fix-reporting-of-test-failures.patch
+
+ -- Håvard F. Aasen <havard.f.aasen@pfft.no>  Thu, 13 Oct 2022 12:26:20 +0200
+
+popt (1.19+dfsg-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+    - Fixes memory leak. Closes: #941814
+  * Drop all patches, included upstream.
+  * Repack source, remove popt.pdf. Closes: #1020300
+  * Adopt package. Closes: #995268
+  * d/copyright:
+    - Add myself under Debian paragraph.
+    - Upstream changed license to MIT/expat.
+  * Update Standards-Version to 4.6.1
+  * Remove no longer needed package conflicts.
+  * wrap-and-sort -at
+
+ -- Håvard F. Aasen <havard.f.aasen@pfft.no>  Tue, 20 Sep 2022 00:42:04 +0200
 
 popt (1.18-3) unstable; urgency=medium
 
