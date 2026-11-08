@@ -1,3 +1,13 @@
+popt (1.19+dfsg-2deepin3) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-18739 (low) - Fix CVE-2026-18739: off-by-one
+    error in poptStuffArgs()   Upstream: https://github.com/rpm-
+    software-
+    management/popt/commit/14c42b415ba0c11640f7d4ee80920452d0287058.patc
+    h
+
+ -- deepin-ci-robot <packages@deepin.org>  Sun, 08 Nov 2026 22:08:18 +0800
+
 popt (1.19+dfsg-2deepin2) unstable; urgency=medium
 
   * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
